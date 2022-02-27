@@ -1,0 +1,307 @@
+body{
+    color: black;
+    padding-top: 70px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+p{
+    font-size: 20px;
+}
+
+.expand-btn{
+    background-color: darkorange;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 20' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+.head-links{
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+    color: orange;
+	position: relative;
+    text-decoration: none;
+}
+.head-links:hover::after {
+	content: "";
+	width: 50px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: orange;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+
+a.active::after {
+	content: "";
+	width: 50px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: orange;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+h1.active::after{
+    content: "";
+	width: 50px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: orange;
+	left: 0;
+	right: 0;
+	bottom: -5px;
+}
+
+
+#homebanner{
+    background-image: url(../img/UltimateImage.jpg);
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-top: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.desc_text{
+    color: white;
+    font-weight: 900;
+    font-size: 100px;
+    width: 50%;
+
+}
+.learn_btn{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-decoration: none;
+    background: white;
+    color: black;
+
+}
+.learn_btn:hover{
+    background: none;
+    color: white;
+    text-decoration: none;
+}
+
+.toppad{
+    padding-top: 50px;
+}
+
+#last{
+    background-color:whitesmoke;
+    padding-top: 30px;
+}
+
+#aboutbanner{
+    background-image: url(../img/image2.jpg);
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-top: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-text{
+    color: white;
+    font-weight: 800;
+    width: 50%;
+}
+
+.company{
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#blogbanner{
+    background-image: url(../img/image5.jpg);
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-top: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.more-btn{
+    text-transform: uppercase;
+}
+
+.social-item{
+    margin: 20px;
+    font-size: 20px;
+}
+.blog{margin: 10px; display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;border-radius:10px;overflow:hidden;max-width:670px;box-shadow:0 20px 30px 0 rgba(36,23,228,.1)}
+.blog img{width:175px;height:150px}
+.blog-content{padding:10px 20px}
+.contact-info{display:-webkit-box;display:-ms-flexbox;display:flex;font-size:1.5rem;color:#2a2938}
+
+.contact-form form{
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+#contact{
+    padding-top: 80px;
+}
+
+#hirebanner{
+    background-image: url(../img/image4.jpg);
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-top: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hire-text{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.third_block {
+	background-color: #fcfcfc;
+	border-top: 2px solid #f0f0f075;
+    border-bottom: 2px solid #f0f0f075;
+}
+.third_block img.fdb-icon {
+	width: 60px;
+}
+
+
+#notfound {
+    position: relative;
+    height: 100vh;
+  }
+  
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound {
+    max-width: 520px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .notfound .notfound-404 {
+    position: relative;
+    height: 240px;
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 252px;
+    font-weight: 900;
+    margin: 0px;
+    color: #262626;
+    text-transform: uppercase;
+    letter-spacing: -40px;
+    margin-left: -20px;
+  }
+  
+  .notfound .notfound-404 h1>span {
+    text-shadow: -8px 0px 0px #fff;
+    color: orangered;
+  }
+  
+  .notfound .notfound-404 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #262626;
+    margin: 0px;
+    letter-spacing: 3px;
+    padding-left: 6px;
+  }
+  
+  .notfound h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .notfound .notfound-404 {
+      height: 200px;
+    }
+    .notfound .notfound-404 h1 {
+      font-size: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .notfound .notfound-404 {
+      height: 162px;
+    }
+    .notfound .notfound-404 h1 {
+      font-size: 162px;
+      height: 150px;
+      line-height: 162px;
+    }
+    .notfound h2 {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+	a.active{
+        color: orangered;
+        
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    p{
+        font-size: 17px;
+    }
+    #demo{
+        margin: 0 auto;
+    }
+    .desc_text{
+        font-size: 70px;
+        font-weight: bolder;
+    }
+    .third_block {
+		padding-bottom: 0px;
+	}
+    .fc {
+		width: 250px !important;
+		height: 500px !important;
+		margin: auto !important;
+	}
+}
